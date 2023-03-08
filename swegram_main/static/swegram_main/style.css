@@ -1,0 +1,44 @@
+.sidebar{
+  word-wrap: break-word;
+  background:rgb(240,240,240);
+  margin-top:18px;
+  min-height:100%;
+}
+
+.left_col{
+  margin-top:33px;
+  background:white;
+}
+
+body{
+  background:rgb(240,240,240);
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.grey_text{
+  color:grey;
+}
+
+.token{
+  cursor:pointer;
+}
+
+.token:hover{
+  color:green;
+}
+
+.token_hidden{
+  display:none;
+}
+
+.highlighted{
+  font-weight: bold;
+}
+
+.disableddiv {
+    pointer-events: none;
+    opacity: 0.4;
+}
